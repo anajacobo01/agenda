@@ -10,8 +10,16 @@ class Contacto  {
 }
 
 
+  class Agenda {
+     contactos = [];
+     nombre; 
+     constructor (nombre){
+         this.nombre = nombre;
+     }
+      crearContacto
+
+  }
     
-    let contactos = [];
         while (condicion){
             let opcion = prompt('Deseas meter un contacto?: [s/n]');
         
